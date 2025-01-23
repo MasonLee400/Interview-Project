@@ -22,6 +22,7 @@ export default async function EditPage({ params }) {
               name="name"
               placeholder={dog?.name}
               className="ml-4 border border-black rounded-md p-1"
+              required
             />
           </h3>
           <h3 className="text-2xl mb-10">
@@ -31,6 +32,7 @@ export default async function EditPage({ params }) {
               name="breed"
               placeholder={dog?.breed}
               className="ml-4 border border-black rounded-md p-1"
+              required
             />
           </h3>
           <h3 className="text-2xl mb-10">
@@ -40,6 +42,7 @@ export default async function EditPage({ params }) {
               name="age"
               placeholder={String(dog?.age)}
               className="ml-4 border border-black rounded-md p-1"
+              required
             />
           </h3>
           <h3 className="text-2xl mb-14">
@@ -49,6 +52,7 @@ export default async function EditPage({ params }) {
               name="owner"
               placeholder={dog?.owner}
               className="ml-4 border border-black rounded-md p-1"
+              required
             />
           </h3>
           <input type="hidden" name="id" value={dog?.id} />

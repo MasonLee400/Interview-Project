@@ -62,6 +62,7 @@ export default async function Home() {
                     name="name"
                     placeholder="Name"
                     className="ml-4 border border-black rounded-md p-1"
+                    required
                   />
                 </h3>
                 <h3 className="text-xl mb-4">
@@ -71,6 +72,7 @@ export default async function Home() {
                     name="breed"
                     placeholder="Breed"
                     className="ml-4 border border-black rounded-md p-1"
+                    required
                   />
                 </h3>
                 <h3 className="text-xl mb-4">
@@ -80,6 +82,7 @@ export default async function Home() {
                     name="age"
                     placeholder="Age"
                     className="ml-4 border border-black rounded-md p-1"
+                    required
                   />
                 </h3>
                 <h3 className="text-xl mb-10">
@@ -89,6 +92,7 @@ export default async function Home() {
                     name="owner"
                     placeholder="Owner"
                     className="ml-4 border border-black rounded-md p-1"
+                    required
                   />
                 </h3>
                 <button
